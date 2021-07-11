@@ -1,0 +1,68 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    display: flex;
+}
+.foto {
+    background: rebeccapurple;
+    padding: 7%;
+    border-radius: 20px;
+    float: left;
+}
+img {
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+.contenu {
+    padding: 9%;
+    text-align: right;
+    background: lightgrey;
+    width: 50cm;
+    border-radius: 3%;
+}
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+#contato {
+    font-size: 25px;
+}
+.content ul li {
+    display: inline-block;
+}
+.content {
+    text-align: center;
+}
+li:hover {
+    text-decoration: grey;
+}
+.email  p input {
+    text-align: center;
+}
+input {
+    height: 10%;
+    padding: 1%;
+    border-bottom: none;
+    border-radius: 14px;
+    background-color: honeydew;
+    cursor: pointer;
+}
+.messagem {
+    border-bottom: solid;
+    border-radius: none;
+}
+button {
+    color: #fff;
+    background: blue;
+    padding: 2px;
+    border-radius: 10px;
+    width: 70px;
+    border-bottom: none;
+    border:none;
+    margin: 10px;
+}
